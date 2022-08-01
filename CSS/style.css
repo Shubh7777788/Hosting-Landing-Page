@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfeff;
+}
+
+/* Navbar */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+header {
+  margin-bottom: 10rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 10rem; */
+}
+
+.logo {
+  width: 11rem;
+  cursor: pointer;
+}
+.grow-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.list-item {
+  font-size: 1.4rem;
+}
+.list :hover {
+  font-weight: 500;
+  cursor: pointer;
+}
+.black {
+  color: #000;
+  font-weight: 500;
+}
+.nav-button {
+  display: block;
+  width: 16rem;
+  padding: 1.5rem 2.5rem;
+  font-size: 1.6rem;
+  background-color: #fff;
+  border: 2px solid lightskyblue;
+  color: #3493f1;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*  Section */
+
+.hero-section {
+  display: flex;
+  gap: 10rem;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.para-text {
+  font-size: 1.2rem;
+}
+.btn {
+  display: block;
+  max-width: 20rem;
+  padding: 1.5rem 2.5rem;
+  font-size: 1.6rem;
+  background: linear-gradient(to left, #0566eb, #09bcf8);
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.testing {
+  grid-column: 2/3;
+}
+.testing-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+/* ----Sevices We Provide <br />
+            At ThorHosting- */
+.gd {
+  display: grid;
+  grid-template-columns: 50fr 35fr;
+  align-items: center;
+}
+.light {
+  font-weight: lighter;
+  align-self: center;
+}
+
+.services-wrapper .icon {
+  font-size: 3rem;
+  color: aqua;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.services-wrapper p {
+  /* padding-right: 10rem; */
+  width: 25rem;
+}
+.services-container {
+  margin-left: 5rem;
+}
